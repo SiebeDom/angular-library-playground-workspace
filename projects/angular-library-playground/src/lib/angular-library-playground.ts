@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lib-angular-library-playground',
   imports: [],
   template: `
-    <p>
+    <p class="bg-green-50">
       angular-library-playground works!
     </p>
   `,
