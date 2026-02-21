@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "link": "cd ./dist/angular-library-playground && npm link"
   },
   "prettier": {
     "printWidth": 100,
