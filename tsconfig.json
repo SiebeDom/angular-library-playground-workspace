@@ -3,6 +3,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "angular-library-playground": [
+        "./dist/angular-library-playground"
+      ]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -21,5 +26,13 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/angular-library-playground/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/angular-library-playground/tsconfig.spec.json"
+    }
+  ]
 }
